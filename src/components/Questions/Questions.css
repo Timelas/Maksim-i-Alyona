@@ -16,8 +16,8 @@
   background-image: url(../../images/stone8.svg);
   position: absolute;
   background-size: contain;
-  width: 1100px;
-  height: 1300px;
+  width: 950px;
+  height: 1000px;
   top: -150px;
   right: -400px;
   background-repeat: no-repeat;
@@ -188,15 +188,8 @@
     box-shadow: 0 0 5px #f8f7f0;
 }
 
-.question__figure {
-  background-image: url(../../images/figure.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: -40px;
-  left: 0;
-  width: 100px;
-  height: 300px;
+.question__text-feedback {
+  margin: 30px 0 270px;
 }
 
 @media screen and (max-width: 1700px) {
@@ -210,16 +203,6 @@
 
   .question__title {
     font-size: 100px;
-  }
-
-  .question__trait {
-    margin: 60px 50px 0 0;
-  }
-
-  .question__figure {
-    top: -40px;
-    width: 90px;
-    height: 250px;
   }
 
   .question__text {
@@ -259,6 +242,10 @@
     top: 0;
     right: -200px;
   }
+
+  .question__text-feedback {
+    margin: 30px 0 100px;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -272,12 +259,6 @@
 
   .question__trait {
     margin: 40px 50px 0 0;
-  }
-
-  .question__figure {
-    top: -40px;
-    width: 70px;
-    height: 200px;
   }
 
   .question__text {
@@ -340,18 +321,9 @@
     text-align: start;
   }
 
-  .question__trait {
-    height: 1px;
-    margin: 0;
-  }
-
-  .question__figure {
-    opacity: 0;
-  }
-
   .question__text {
-    font-size: 12px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 26px;
     width: 80%;
     margin: 20px 0 0;
   }
@@ -377,7 +349,7 @@
 
   .question__string {
     margin: 0 0 15px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .question__label {
@@ -393,23 +365,17 @@
   .question__button {
     width: 175px;
     height: 40px;
-    font-size: 12px;
+    font-size: 14px;
   }
 
-  .question__stone {
-    width: 500px;
-    height: 500px;
-    top: 150px;
-    right: -200px;
-  }
-}
-
-@media screen and (max-width: 800px) {
   .question__stone {
     width: 400px;
     height: 400px;
     top: 150px;
-    right: 0;
-    left: -100px;
+    right: -200px;
+  }
+
+  .question__text-feedback {
+    margin: 20px 0 30px;
   }
 }

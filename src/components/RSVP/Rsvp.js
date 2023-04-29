@@ -4,7 +4,7 @@ import "./Rsvp.css";
 
 function Rsvp() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycby_BYT6LzPV3FZHn66CPeQcYu6bE5b3ZBjuvAoU08L_RdiIzQ7viRTg5mtfej77Y_iK/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbw8hPcQFs9rQTCqOHfM63na1J4Oe2CYecQOtOf0ifb_R9CXT9qf76JqRXGNhXxwgHA/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setIsFormVisible] = useState(true);
   const [isSubmitChange, setIsSubmitChange] = useState(true);
@@ -81,7 +81,6 @@ function Rsvp() {
       </div> :
       <div>
         <p className="rsvp__answer">Форма отправлена!</p>
-        <button className="rsvp__return" onClick={returnForm}>Планы поменялись? Заполнить форму заново</button>
       </div>
       } 
     </section>

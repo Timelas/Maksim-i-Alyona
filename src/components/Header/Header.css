@@ -51,6 +51,7 @@
   height: 1050px;
   object-fit: cover;
   z-index: 2;
+  border-radius: 40px;
 }
 
 .header__info {

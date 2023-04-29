@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from 'usehooks-ts';
 import "./Header.css";
-import newlyweds from "../../images/newlyweds.jpg"
+import newlyweds from "../../images/foto3.jpg"
 
 function Header() {
   const resize = useMediaQuery('(min-width: 700px)');

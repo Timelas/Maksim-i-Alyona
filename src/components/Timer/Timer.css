@@ -178,18 +178,9 @@ background-color: #3b633b;
     align-self: flex-start;
   }
 
-  .timer__figure {
-    opacity: 0;
-  }
-
-  .timer__trait {
-    height: 1px;
-    margin: 0;
-  }
-
   .timer__title {
-    font-size: 12px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 26px;
   }
 
   .timer__bloks {
@@ -203,7 +194,7 @@ background-color: #3b633b;
   }
 
   .timer__text {
-    font-size: 10px;
+    font-size: 12spx;
   }
 
   .timer__block-info {

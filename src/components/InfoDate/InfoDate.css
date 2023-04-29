@@ -376,8 +376,8 @@
   }
 
   .info-date__text {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 22px;
     margin: 30px 0 15px;
   }
 
@@ -419,18 +419,18 @@
   }
 
  .info-date__what {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
     margin: 0;
   }
 
   .info-date__where {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
   }
 
   .info-date__day-week {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .info-date__number {
@@ -445,7 +445,7 @@
   }
 
   .info-date__time {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .info-date__stone {

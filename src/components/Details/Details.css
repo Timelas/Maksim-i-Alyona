@@ -84,7 +84,7 @@
 
 @media screen and (max-width: 1700px) {
   .details {
-    padding: 70px 0 0;
+    padding: 70px 0;
   }
 
   .details__header {
@@ -128,7 +128,7 @@
 
 @media screen and (max-width: 1300px) {
   .details {
-    padding: 50px 0 0;
+    padding: 50px 0;
   }
 
   .details__header {
@@ -189,7 +189,7 @@
 
 @media screen and (max-width: 700px) {
   .details {
-    padding: 30px 0 0;
+    padding: 40px 0;
   }
 
   .details__header {
@@ -210,8 +210,8 @@
   }
 
   .details__text {
-    font-size: 12px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 26px;
     width: 80%;
     margin: 7px 0;
   }

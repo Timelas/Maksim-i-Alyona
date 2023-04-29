@@ -4,7 +4,7 @@ import "./Questions.css";
 
 function Questions() {
   const formRef = useRef(null)
-  const scriptUrl = "https://script.google.com/macros/s/AKfycby_BYT6LzPV3FZHn66CPeQcYu6bE5b3ZBjuvAoU08L_RdiIzQ7viRTg5mtfej77Y_iK/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbw8hPcQFs9rQTCqOHfM63na1J4Oe2CYecQOtOf0ifb_R9CXT9qf76JqRXGNhXxwgHA/exec"
   const [loading, setLoading] = useState(false);
   const [isFormVisible, setisFormVisible] = useState(true);
 
@@ -62,7 +62,7 @@ function Questions() {
         </form> 
       </div>
       :
-      <p className="question__text">Форма отправлена!</p>
+      <p className="question__text question__text-feedback">Форма отправлена!</p>
       }
       
     </section>
