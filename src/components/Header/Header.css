@@ -243,14 +243,15 @@
   .header__image-mobile {
     height: 62vh;
     object-fit: cover;
-    margin: 45px 0 0;
+    margin: 35px 0 0;
     position: relative;
     align-self: center;
+    border-radius: 18px;
   }
 
   .header__info_date-mobile {
     display: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 200;
   }
 
@@ -271,7 +272,7 @@
     align-items: center;
     justify-content: center;
     align-self: center;
-    margin: 20px 0 0;
+    margin: 25px 0 0;
     width: 60%;
     object-fit: contain;
     max-width: 250px;
@@ -297,7 +298,7 @@
 @media screen and (max-width: 500px) {
   .header__image-mobile {
     position: relative;
-    right: -50px;
+    right: -15px;
     align-self: flex-end;
   }
 
