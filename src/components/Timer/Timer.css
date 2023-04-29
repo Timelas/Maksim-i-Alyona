@@ -169,7 +169,7 @@ background-color: #3b633b;
 
 @media screen and (max-width: 700px) {
   .timer {
-    padding: 30px 0 0;
+    padding: 0;
   }
 
   .timer__header {
@@ -194,7 +194,7 @@ background-color: #3b633b;
   }
 
   .timer__text {
-    font-size: 12spx;
+    font-size: 12px;
   }
 
   .timer__block-info {
