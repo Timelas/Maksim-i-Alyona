@@ -204,6 +204,25 @@
 
 @media screen and (max-width: 550px) {
   .footer {
+    padding: 40px 25px 140px;
+    box-sizing: border-box;
+  }
+
+  .footer__contain {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer__stone {
+    width: 400px;
+    height: 140px;
+    bottom: -5px;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
     padding: 40px 25px 110px;
     box-sizing: border-box;
   }
